@@ -1,2 +1,30 @@
-*.class
+# sbt
+lib_managed
+project/project
+target
+.bsp
+
+# Worksheets (Eclipse or IntelliJ)
+*.sc
+
+# Eclipse
+.cache*
+.classpath
+.project
+.scala_dependencies
+.settings
+.target
+.worksheet
+
+# IntelliJ
+.idea
+*.iml
+
+# Mac
+.DS_Store
+
+# Log files
 *.log
+
+# jenv
+.java-version
